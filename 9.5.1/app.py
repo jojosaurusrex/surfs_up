@@ -5,15 +5,16 @@
 ###################
 
 import datetime as dt
+from bitarray import test
 import numpy as np
-import pandas as pd
+# import pandas as pd
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-from flask import Flask, jsonify
+# from flask import Flask, jsonify
 
 engine = create_engine("sqlite:///hawaii.sqlite")
 
@@ -37,3 +38,21 @@ if __name__ == "__main__":
     print("example is being run directly.")
 else:
     print("example is being imported")
+
+# 9.5.2
+
+@app.route("/")
+
+def welcome():
+    return(
+    '''
+    Welcome to the Climate Analysis API!
+    Available Routes:
+    /api/v1.0/precipitation
+    /api/v1.0/stations
+    /api/v1.0/tobs
+    /api/v1.0/temp/start/end
+    ''')
+
+# if __name__ == '__main__':
+#     app.run(debug=True)
