@@ -18,4 +18,4 @@ The purpose of this challenge was to have students familariaze themselves with P
 
 
 ## Summary
-According to our summary statistics for both June and December it is always a great temperature to go surfing in Hawaii, with both months averaging over 71 degrees Farhenheit. The two additional queries I would do on top of analyzing the temperature is to analyze the precipitation among both of these months. If we know when it is more likely to rain we can make sure to vacation in Hawaii when we can get the warm sunny days everyone pictures when they think of Hawaii. 
+According to our summary statistics for both June and December it is always a great temperature to go surfing in Hawaii, with both months averaging over 71 degrees Farhenheit. The two additional queries I would do on top of analyzing the temperature is to analyze the precipitation among both of these months.s If we know when it is more likely to rain we can make sure to vacation in Hawaii when we can get the warm sunny days everyone pictures when they think of Hawaii. 
